@@ -1,0 +1,6 @@
+﻿  thread_coroutine.cpp
+  The contents of <coroutine> are available only with C++20 or later or /await:strict.
+D:\Projects\88.LLZX\4.MyC++\LLZX_C_plusplus\LLZX_C++\C++\thread_coroutine.cpp(11,14): warning C4930: “std::thread t(void)”: 未调用原型函数(是否是有意用变量定义的?)
+  C++.vcxproj -> D:\Projects\88.LLZX\4.MyC++\LLZX_C_plusplus\LLZX_C++\Debug\C++.exe
+  'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
+  或批处理文件。
