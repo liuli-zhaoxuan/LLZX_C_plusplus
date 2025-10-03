@@ -1,3 +1,4 @@
+#if 0
 #include <iostream>
 #include <mutex>
 #include <atomic>
@@ -12,7 +13,6 @@ using namespace std;
  * 一旦你为类显式定义了任何构造函数，编译器就不会再自动生成默认构造函数。
 */ 
 
-#if 0
 // 定义一个单例模式的任务队列
 // 饿汉模式
 class TaskQueue
@@ -208,7 +208,7 @@ private:
 };
 TaskQueue* TaskQueue::m_taskQ = new TaskQueue;
 
-#endif
+
 int main()
 {
 	//单例测试
@@ -244,3 +244,5 @@ int main()
 	t2.join();
 	return 0;
 }
+
+#endif

@@ -142,6 +142,7 @@
   <ItemGroup>
     <ClCompile Include="thread_coroutine.cpp" />
     <ClCompile Include="手撕线程池.cpp" />
+    <ClCompile Include="无锁任务队列.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
