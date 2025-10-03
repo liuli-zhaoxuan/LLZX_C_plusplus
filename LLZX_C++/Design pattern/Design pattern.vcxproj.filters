@@ -30,5 +30,8 @@
     <ClCompile Include="建造者设计模式.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="适配器设计模式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
