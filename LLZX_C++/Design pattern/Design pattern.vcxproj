@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1.单例设计模式.cpp" />
+    <ClCompile Include="原型设计模式.cpp" />
     <ClCompile Include="抽象工厂.cpp" />
     <ClCompile Include="简单工厂.cpp" />
   </ItemGroup>
