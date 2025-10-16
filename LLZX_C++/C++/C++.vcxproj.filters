@@ -24,5 +24,8 @@
     <ClCompile Include="无锁任务队列.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="手撕简易shared_ptr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

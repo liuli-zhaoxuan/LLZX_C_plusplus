@@ -141,6 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="thread_coroutine.cpp" />
+    <ClCompile Include="手撕简易shared_ptr.cpp" />
     <ClCompile Include="手撕线程池.cpp" />
     <ClCompile Include="无锁任务队列.cpp" />
   </ItemGroup>
