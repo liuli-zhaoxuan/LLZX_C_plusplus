@@ -27,5 +27,11 @@
     <ClCompile Include="手撕简易shared_ptr.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="维持线程异步调用耗时任务.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="weakptr使用场景.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

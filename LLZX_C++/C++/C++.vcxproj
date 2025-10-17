@@ -141,9 +141,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="thread_coroutine.cpp" />
+    <ClCompile Include="weakptr使用场景.cpp" />
     <ClCompile Include="手撕简易shared_ptr.cpp" />
     <ClCompile Include="手撕线程池.cpp" />
     <ClCompile Include="无锁任务队列.cpp" />
+    <ClCompile Include="维持线程异步调用耗时任务.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

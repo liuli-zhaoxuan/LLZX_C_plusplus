@@ -1,3 +1,4 @@
+#if 0
 //简易shard_ptr：主要体现其共享管理的作用
 #include <cstddef> //std::size_t
 #include <utility> //std::exchange, std::forward
@@ -14,9 +15,8 @@ private:
 
 	void release() {
 		if (count_) {
-			if ((*count_) == 0) {
+			if (--(*count_) == 0) {
 				//释放 智能指针对对象的占有，引用计数-1
-				(*count_)--;
 				delete ptr_;
 				delete count_;
 			}
@@ -150,3 +150,5 @@ int main() {
 
 	return 0;
 }
+
+#endif
