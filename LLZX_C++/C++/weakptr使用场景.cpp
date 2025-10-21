@@ -1,4 +1,4 @@
-
+#if 0
 //weak_ptr的简单使用
 #include <iostream>
 #include <memory>
@@ -45,3 +45,5 @@ int main() {
 	}
 	return 0;
 }
+
+#endif

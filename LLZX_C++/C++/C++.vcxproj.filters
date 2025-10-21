@@ -33,5 +33,8 @@
     <ClCompile Include="weakptr使用场景.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="双线程打印奇偶数字.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
