@@ -1,3 +1,4 @@
+#if 0
 #include <iostream>
 #include <thread>
 #include <mutex>
@@ -53,3 +54,5 @@ int main() {
 	threadB.join();
 	return 0;
 }
+
+#endif
