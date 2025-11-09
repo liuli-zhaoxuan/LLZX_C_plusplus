@@ -75,3 +75,86 @@ int main() {
 	return 0;
 }
 #endif
+
+#if 0
+//再写一个
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+//观察者接口
+class Observer {
+public:
+	virtual void update(const string& message) = 0;
+};
+
+//主题接口
+class Subject {
+private:
+	vector<Observer*> observers;
+	string state;
+public:
+	void addObserver(Observer* observer) {
+		observers.push_back(observer);
+	}
+
+	void removeObserver(Observer* observer) {
+		for (auto it = observers.begin(); it != observers.end(); ++it) {
+			if (*it == observer) {
+				observers.erase(it);
+				break;
+			}
+		}
+	}
+
+	void notifyObservers() {
+		for (auto observer : observers) {
+			observer->update(state);
+		}
+	}
+
+	void setState(const string& newState) {
+		state = newState;
+		notifyObservers();
+	}
+
+	string getState() const {
+		return state;
+	}
+};
+
+class ObserverA : public Observer {
+public:
+	void update(const string& message) override {
+		cout << "观察者A收到：" << message << endl;
+	}
+};
+
+class ObserverB : public Observer {
+public:
+	void update(const string& message) override {
+		cout << "观察者B收到：" << message << endl;
+	}
+};
+
+int main() {
+	Subject subject;
+
+	ObserverA obA;
+	ObserverB obB;
+
+	subject.addObserver(&obA);
+	subject.addObserver(&obB);
+	
+	subject.setState("状态1");
+	subject.setState("状态2");
+
+	subject.removeObserver(&obA);
+
+	subject.setState("状态3");
+	return 0;
+}
+
+#endif
