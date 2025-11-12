@@ -39,5 +39,11 @@
     <ClCompile Include="双线程打印奇偶数字2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="回调函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="哈希平衡算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

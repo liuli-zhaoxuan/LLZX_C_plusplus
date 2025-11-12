@@ -1,3 +1,4 @@
+#if 0
 #include <iostream>
 #include <thread>
 #include <atomic>
@@ -43,7 +44,7 @@ int main() {
 	return 0;
 }
 
-
+#endif
 /*
 注意：
 this_thread::yield(); // 让出CPU时间片
