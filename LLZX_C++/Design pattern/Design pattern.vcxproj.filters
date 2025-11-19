@@ -39,5 +39,8 @@
     <ClCompile Include="策略设计模式.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="0.简历上提到的设计模式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

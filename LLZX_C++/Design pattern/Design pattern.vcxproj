@@ -145,6 +145,7 @@
     <ClCompile Include="抽象工厂.cpp" />
     <ClCompile Include="策略设计模式.cpp" />
     <ClCompile Include="简单工厂.cpp" />
+    <ClCompile Include="0.简历上提到的设计模式.cpp" />
     <ClCompile Include="观察者设计模式.cpp" />
     <ClCompile Include="适配器设计模式.cpp" />
   </ItemGroup>
